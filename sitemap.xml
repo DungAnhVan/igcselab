@@ -33,6 +33,18 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://igcselab.com/blog/why-igcse-math-feels-harder/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igcselab.com/blog/what-happens-in-an-igcse-diagnostic-test/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igcselab.com/blog/doing-past-papers-but-not-improving/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://igcselab.com/contact/</loc>
     <priority>0.7</priority>
   </url>

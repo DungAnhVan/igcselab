@@ -34,7 +34,8 @@
             "mainEntity": [
               {"@type": "Question", "name": "Is the diagnostic test a full mock exam?", "acceptedAnswer": {"@type": "Answer", "text": "No. It is a focused diagnostic session designed to reveal weak points in concepts, calculations, reasoning, and exam technique."}},
               {"@type": "Question", "name": "Does my child need to join tutoring after the diagnostic?", "acceptedAnswer": {"@type": "Answer", "text": "No long-term course commitment is required. Parents receive a roadmap first and can decide the next step afterwards."}},
-              {"@type": "Question", "name": "Which subjects can be checked?", "acceptedAnswer": {"@type": "Answer", "text": "IGCSE Lab can check Math, Physics, Chemistry, and Combined Science skills depending on the student's needs."}}
+              {"@type": "Question", "name": "Which subjects can be checked?", "acceptedAnswer": {"@type": "Answer", "text": "IGCSE Lab can check Math, Physics, Chemistry, and Combined Science skills depending on the student's needs."}},
+              {"@type": "Question", "name": "Can the session be online?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Online diagnostic sessions are suitable for most students. Offline options can be discussed based on location and availability."}}
             ]
           }
         ]
@@ -54,7 +55,7 @@
           <a href="igcse-math-tutor/">Math</a>
           <a href="igcse-physics-tutor/">Physics</a>
           <a href="igcse-chemistry-tutor/">Chemistry</a>
-          <a href="igcse-combined-science-tutor/">Combined Science</a>
+          <a href="igcse-combined-science-tutor/">Combined Science</a><a href="igcse-past-paper-training/">Past Papers</a>
           <a href="blog/">Blog</a>
           <a href="contact/">Contact</a>
         </nav>
@@ -164,7 +165,7 @@
             <p class="microcopy">We will contact you to arrange a suitable diagnostic time. No long-term course commitment is required.</p>
           </div>
           <div class="form-card">
-            <form class="lead-form" data-lead-form>
+            <form class="lead-form" method="post" data-lead-form>
               <div class="form-grid">
                 <div class="field">
                   <label for="parent-name">Parent name</label>
@@ -219,7 +220,7 @@
                 <textarea id="problem" name="problem" placeholder="What is the student struggling with now?"></textarea>
               </div>
               <button class="button button-primary" type="submit">Book a Diagnostic Session</button>
-              <p class="form-status" data-form-status aria-live="polite"></p>
+              <p class="form-status" data-form-status role="status" aria-live="polite"></p>
             </form>
           </div>
         </div>
@@ -271,7 +272,7 @@
               <span class="brand-mark">IL</span>
               <span class="brand-copy">IGCSE Lab <small>Diagnostic-based tutoring</small></span>
             </a>
-            <p class="microcopy">Diagnostic-based tutoring for IGCSE Math &amp; Science students.</p>
+            <p class="microcopy">Diagnostic-based tutoring for IGCSE Math &amp; Science students.</p><div class="footer-contact-actions" aria-label="Quick contact links"><!-- TODO: replace with official IGCSE Lab contact --><a class="button button-soft" href="tel:+84XXXXXXXXX">Call</a><!-- TODO: replace with official IGCSE Lab contact --><a class="button button-secondary" href="https://zalo.me/XXXXXXXXXX">Zalo</a><!-- TODO: replace with official IGCSE Lab contact --><a class="button button-secondary" href="https://m.me/igcselab">Messenger</a></div>
           </div>
           <div>
             <h3>Subjects</h3>
@@ -279,7 +280,7 @@
               <li><a href="igcse-math-tutor/">IGCSE Math</a></li>
               <li><a href="igcse-physics-tutor/">IGCSE Physics</a></li>
               <li><a href="igcse-chemistry-tutor/">IGCSE Chemistry</a></li>
-              <li><a href="igcse-combined-science-tutor/">Combined Science</a></li>
+              <li><a href="igcse-combined-science-tutor/">Combined Science</a></li><li><a href="igcse-past-paper-training/">Past Papers</a></li>
             </ul>
           </div>
           <div>
@@ -295,6 +296,11 @@
         <p class="disclaimer">IGCSE Lab is an independent tutoring and diagnostic learning service. It is not affiliated with, endorsed by, or officially connected to Cambridge Assessment International Education or any examination board. IGCSE is used only to describe the curriculum and exam preparation support offered.</p>
       </div>
     </footer>
+    <div class="mobile-sticky-cta" aria-label="Quick booking actions">
+      <a class="button button-primary" href="igcse-diagnostic-test/#booking">Book Diagnostic Test</a>
+      <a class="button button-secondary" href="https://zalo.me/XXXXXXXXXX">Zalo</a>
+      <a class="button button-secondary" href="tel:+84XXXXXXXXX">Call</a>
+    </div>
     <script src="assets/js/main.js" defer></script>
   </body>
 </html>

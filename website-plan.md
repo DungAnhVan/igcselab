@@ -12,6 +12,9 @@ This document summarises the launch-ready MVP structure built in this folder.
 - `/igcse-combined-science-tutor/` - SEO service page for IGCSE science tutor and Combined Science keywords.
 - `/igcse-past-paper-training/` - SEO service page for IGCSE past paper training.
 - `/blog/` - SEO blog hub with clusters and article plan.
+- `/blog/why-igcse-math-feels-harder/` - Published SEO article for IGCSE Math diagnostic gaps.
+- `/blog/what-happens-in-an-igcse-diagnostic-test/` - Published SEO article explaining the diagnostic test.
+- `/blog/doing-past-papers-but-not-improving/` - Published SEO article for past-paper error review.
 - `/contact/` - Contact page with enquiry form and contact options.
 
 ## 2. Homepage Wireframe and Copy
@@ -120,7 +123,7 @@ Full meta descriptions and outlines are included visually on `/blog/`.
 - Type: system sans-serif stack for fast loading and clean academic readability.
 - Components: sticky header, subject cards, diagnostic map, process cards, FAQ details, lead form, CTA band.
 - Layout: mobile-first responsive grids, 8px radius cards/buttons, light academic background grid, calm spacing.
-- Visual asset: generated diagnostic workspace image saved at `assets/img/igcse-diagnostic-workspace.png`.
+- Visual asset: generated diagnostic workspace image saved at `assets/img/igcse-diagnostic-workspace.png`, with a compressed WebP version used on the homepage.
 
 ## 9. Lead Form Layout
 
@@ -136,7 +139,7 @@ Fields:
 - Phone/Zalo
 - Email
 
-The static form currently shows an on-page success message. Connect it to a CRM, email service, Google Sheet, or backend endpoint before paid traffic starts.
+Forms now submit through `FORM_ENDPOINT` in `assets/js/main.js`. Replace the placeholder with a Google Apps Script Web App, Formspree endpoint, Netlify Function/Form endpoint, or Make/Zapier webhook before paid traffic starts. Do not add secret API keys to frontend code.
 
 ## 10. Technical SEO Checklist
 
@@ -145,6 +148,7 @@ The static form currently shows an on-page success message. Connect it to a CRM,
 - Canonical URL per page.
 - Schema added: EducationalOrganization, Service, BreadcrumbList, FAQPage, Blog, ItemList.
 - `robots.txt` and `sitemap.xml` included.
+- Three real article pages included in `sitemap.xml`.
 - Internal links between service pages and the diagnostic landing page.
 - Image alt text included.
 - Mobile-first responsive CSS.
@@ -161,4 +165,4 @@ The static form currently shows an on-page success message. Connect it to a CRM,
 - Retarget visitors who view service pages but do not submit the form.
 - Track form submissions, CTA clicks, scroll depth, and contact button clicks.
 - Add real parent objections to the FAQ after the first few campaigns.
-- Replace all placeholder contact links before campaign launch.
+- Replace all placeholder contact links and the form endpoint before campaign launch.
