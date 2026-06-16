@@ -1,0 +1,24 @@
+{
+  "brand": {
+    "logoHorizontal": "/assets/brand/igcse-lab-logo-horizontal.png",
+    "logoDarkBg": "/assets/brand/igcse-lab-logo-dark-bg.png",
+    "symbol": "/assets/brand/igcse-lab-symbol.png"
+  },
+  "backgrounds": {
+    "homeHero": "/assets/backgrounds/home-hero-diagnostic-bg.png",
+    "pattern": "/assets/backgrounds/igcse-lab-pattern-bg.png"
+  },
+  "sections": {
+    "brandBanner": "/assets/sections/igcse-lab-brand-banner.png",
+    "subjectCardsGrid": "/assets/sections/subject-cards-grid.png"
+  },
+  "icons": {
+    "math": "/assets/icons/subject-math.png",
+    "physics": "/assets/icons/subject-physics.png",
+    "chemistry": "/assets/icons/subject-chemistry.png",
+    "combinedScience": "/assets/icons/subject-combined-science.png"
+  },
+  "social": {
+    "ogImage": "/assets/social/og-image.png"
+  }
+}
