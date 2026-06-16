@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" role="img" aria-labelledby="title">
+  <title id="title">IGCSE Physics symbol</title>
+  <rect width="360" height="260" rx="24" fill="#ffffff"/>
+  <path d="M218 52h64v150h-38v-16h22V68h-48V52Z" fill="#071a3d"/>
+  <path d="M84 108h30v94H84v-94Z" fill="#071a3d"/>
+  <circle cx="99" cy="74" r="14" fill="#0758e8"/>
+  <path d="M136 108h30v68h78v26H136v-94Z" fill="#0758e8"/>
+  <path d="M208 138c24 10 48 8 72-6" fill="none" stroke="#0758e8" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M212 138l48-54" fill="none" stroke="#0758e8" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="212" cy="138" r="15" fill="#071a3d"/>
+  <circle cx="262" cy="82" r="9" fill="#0758e8"/>
+  <text x="68" y="232" fill="#071a3d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">IGCSE</text>
+  <text x="186" y="232" fill="#0758e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Physics</text>
+</svg>

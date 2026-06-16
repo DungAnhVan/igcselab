@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 820" preserveAspectRatio="xMidYMid slice">
+  <rect width="1440" height="820" fill="#fbfdff"/>
+  <g opacity="0.55">
+    <path d="M0 760c120-80 210-50 320-6 170 68 320 34 450-54 164-110 330-105 500-2 86 52 138 66 170 58v64H0z" fill="#eaf2ff"/>
+    <path d="M1040 230h400v590h-400c84-78 120-174 126-286 8-134-38-226-126-304Z" fill="#f2f7ff"/>
+  </g>
+  <g opacity="0.28" fill="#0758e8">
+    <circle cx="118" cy="110" r="7"/><circle cx="146" cy="110" r="7"/><circle cx="174" cy="110" r="7"/><circle cx="202" cy="110" r="7"/><circle cx="230" cy="110" r="7"/>
+    <circle cx="118" cy="138" r="7"/><circle cx="146" cy="138" r="7"/><circle cx="174" cy="138" r="7"/><circle cx="202" cy="138" r="7"/><circle cx="230" cy="138" r="7"/>
+    <circle cx="118" cy="166" r="7"/><circle cx="146" cy="166" r="7"/><circle cx="174" cy="166" r="7"/><circle cx="202" cy="166" r="7"/><circle cx="230" cy="166" r="7"/>
+    <circle cx="922" cy="704" r="7"/><circle cx="950" cy="704" r="7"/><circle cx="978" cy="704" r="7"/><circle cx="1006" cy="704" r="7"/><circle cx="1034" cy="704" r="7"/>
+    <circle cx="922" cy="732" r="7"/><circle cx="950" cy="732" r="7"/><circle cx="978" cy="732" r="7"/><circle cx="1006" cy="732" r="7"/><circle cx="1034" cy="732" r="7"/>
+  </g>
+  <g fill="none" stroke="#9fbfff" stroke-width="3" opacity="0.38">
+    <path d="M1010 150l88-54 112 36 86-62"/>
+    <path d="M1010 150l64 78 136-96"/>
+    <path d="M106 552l130-102 144 50"/>
+    <path d="M1168 560l96-102 114-8"/>
+  </g>
+  <g fill="#0758e8" opacity="0.45">
+    <circle cx="1010" cy="150" r="11"/><circle cx="1098" cy="96" r="11"/><circle cx="1210" cy="132" r="11"/><circle cx="1296" cy="70" r="11"/>
+    <circle cx="106" cy="552" r="11"/><circle cx="236" cy="450" r="11"/><circle cx="380" cy="500" r="11"/>
+    <circle cx="1168" cy="560" r="11"/><circle cx="1264" cy="458" r="11"/><circle cx="1378" cy="450" r="11"/>
+  </g>
+  <g opacity="0.1" fill="#071a3d">
+    <path d="M522 42h90v180h-50V92h-40V42Z"/>
+    <path d="M78 520h34v128H78zM132 520h34v96h112v32H132zM286 480h78v168h-48V528h-30z"/>
+    <path d="M1240 52h34v128h-34zM1294 52h34v96h112v32h-146z"/>
+  </g>
+</svg>

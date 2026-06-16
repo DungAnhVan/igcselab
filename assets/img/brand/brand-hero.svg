@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">IGCSE Lab diagnostic learning visual</title>
+  <desc id="desc">Clean academic visual with IGCSE Lab symbol, charts, math grid, and science flask.</desc>
+  <defs>
+    <linearGradient id="blue" x1="300" y1="650" x2="760" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071a3d"/>
+      <stop offset="0.56" stop-color="#0758e8"/>
+      <stop offset="1" stop-color="#0b78ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#071a3d" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="820" fill="#ffffff"/>
+  <path d="M0 740c130-70 232-40 340 0 194 72 338 36 474-52 146-95 272-84 386 2v130H0z" fill="#edf5ff"/>
+  <g opacity="0.55" stroke="#cfe0ff" stroke-width="1">
+    <path d="M784 150h330M784 190h330M784 230h330M784 270h330M784 310h330M784 350h330"/>
+    <path d="M824 120v260M864 120v260M904 120v260M944 120v260M984 120v260M1024 120v260M1064 120v260"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="72" y="164" width="330" height="188" rx="24" fill="#ffffff" stroke="#dfe9f7"/>
+    <path d="M124 260a58 58 0 1 0 116 0a58 58 0 1 0-116 0" fill="none" stroke="#d9e6ff" stroke-width="28"/>
+    <path d="M182 202a58 58 0 0 1 55 40" fill="none" stroke="#0758e8" stroke-width="28"/>
+    <circle cx="288" cy="224" r="7" fill="#0758e8"/><path d="M312 224h54" stroke="#dfe8f8" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="288" cy="260" r="7" fill="#0758e8"/><path d="M312 260h78" stroke="#dfe8f8" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="288" cy="296" r="7" fill="#0758e8"/><path d="M312 296h64" stroke="#dfe8f8" stroke-width="8" stroke-linecap="round"/>
+    <rect x="82" y="390" width="320" height="148" rx="22" fill="#ffffff" stroke="#dfe9f7"/>
+    <path d="M112 486c30-54 72-12 104-48 34-38 70 54 108-2 30-44 48 16 70-10" fill="none" stroke="#0758e8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M124 420v92M168 420v92M212 420v92M256 420v92M300 420v92M344 420v92" stroke="#dfe8f8" stroke-width="2" stroke-dasharray="8 8"/>
+  </g>
+  <g transform="translate(480 272) scale(1.42)">
+    <path d="M112 0h38v112h-38V98h24V14h-24V0Z" fill="#071a3d"/>
+    <path d="M18 48h24v64H18V48Z" fill="#071a3d"/>
+    <circle cx="30" cy="22" r="12" fill="url(#blue)"/>
+    <path d="M58 48h24v48h58v16H58V48Z" fill="#0758e8"/>
+    <path d="M96 76l30-30" fill="none" stroke="#0758e8" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="95" cy="77" r="10" fill="#071a3d"/>
+    <circle cx="128" cy="44" r="10" fill="#0758e8"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="796" y="142" width="180" height="172" rx="24" fill="#ffffff" stroke="#dfe9f7"/>
+    <rect x="840" y="236" width="18" height="46" rx="4" fill="#d9e6ff"/>
+    <rect x="874" y="208" width="18" height="74" rx="4" fill="#b7d0ff"/>
+    <rect x="908" y="172" width="18" height="110" rx="4" fill="#0758e8"/>
+    <circle cx="838" cy="304" r="8" fill="#0758e8"/><path d="M862 304h72" stroke="#dfe8f8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#d2e2ff" stroke-width="4" opacity="0.85">
+    <path d="M672 112l96-68 110 52 84-70"/>
+    <circle cx="672" cy="112" r="9" fill="#0758e8" stroke="none"/>
+    <circle cx="768" cy="44" r="12" fill="#9fc2ff" stroke="none"/>
+    <circle cx="878" cy="96" r="11" fill="#d9e6ff" stroke="none"/>
+    <circle cx="962" cy="26" r="10" fill="#cfe0ff" stroke="none"/>
+  </g>
+  <g transform="translate(820 450)" filter="url(#shadow)">
+    <path d="M74 0h58v22h-12v128l62 104c12 20-2 46-26 46H50c-24 0-38-26-26-46l62-104V22H74V0Z" fill="#ffffff" stroke="#c9dcff" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M50 220h112l28 48H22l28-48Z" fill="#0758e8" opacity="0.85"/>
+    <circle cx="126" cy="188" r="7" fill="#d9e6ff"/><circle cx="100" cy="164" r="7" fill="#d9e6ff"/>
+  </g>
+  <text x="880" y="248" fill="#8cb6ff" font-family="Georgia, serif" font-size="30">x² + y² = r²</text>
+</svg>

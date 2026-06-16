@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">IGCSE Lab logo</title>
+  <desc id="desc">IGCSE Lab wordmark with IL symbol.</desc>
+  <defs>
+    <linearGradient id="blue" x1="42" y1="150" x2="154" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071a3d"/>
+      <stop offset="0.55" stop-color="#0758e8"/>
+      <stop offset="1" stop-color="#0b78ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="180" fill="#ffffff"/>
+  <g transform="translate(32 34)">
+    <path d="M112 0h38v112h-38V98h24V14h-24V0Z" fill="#071a3d"/>
+    <path d="M18 48h24v64H18V48Z" fill="#071a3d"/>
+    <circle cx="30" cy="22" r="12" fill="url(#blue)"/>
+    <path d="M58 48h24v48h58v16H58V48Z" fill="url(#blue)"/>
+    <path d="M96 76l30-30" fill="none" stroke="#0758e8" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="95" cy="77" r="10" fill="#071a3d"/>
+    <circle cx="128" cy="44" r="10" fill="#0758e8"/>
+  </g>
+  <text x="225" y="113" fill="#071a3d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="2">IGCSE</text>
+  <text x="500" y="113" fill="#0758e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">Lab</text>
+</svg>

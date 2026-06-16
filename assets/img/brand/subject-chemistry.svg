@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" role="img" aria-labelledby="title">
+  <title id="title">IGCSE Chemistry symbol</title>
+  <rect width="360" height="260" rx="24" fill="#ffffff"/>
+  <path d="M218 52h64v150h-38v-16h22V68h-48V52Z" fill="#071a3d"/>
+  <path d="M84 108h30v94H84v-94Z" fill="#071a3d"/>
+  <circle cx="99" cy="74" r="14" fill="#0758e8"/>
+  <path d="M136 108h30v68h78v26H136v-94Z" fill="#0758e8"/>
+  <path d="M222 90h36v18h-7v38l30 48c6 10-1 22-13 22h-62c-12 0-19-13-13-23l30-47v-38h-7V90h6Z" fill="none" stroke="#071a3d" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M207 186h60l12 19H195l12-19Z" fill="#0758e8"/>
+  <circle cx="236" cy="72" r="6" fill="#0758e8"/>
+  <circle cx="252" cy="58" r="5" fill="#0758e8"/>
+  <circle cx="258" cy="78" r="4" fill="#0758e8"/>
+  <text x="50" y="232" fill="#071a3d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">IGCSE</text>
+  <text x="168" y="232" fill="#0758e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Chemistry</text>
+</svg>

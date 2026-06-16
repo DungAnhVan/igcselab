@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">IGCSE Lab symbol</title>
+  <desc id="desc">Stylized IL mark with diagnostic graph nodes.</desc>
+  <defs>
+    <linearGradient id="blue" x1="48" y1="220" x2="192" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071a3d"/>
+      <stop offset="0.55" stop-color="#0758e8"/>
+      <stop offset="1" stop-color="#0b78ff"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="24" y1="228" x2="224" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061738"/>
+      <stop offset="1" stop-color="#0b1f3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="36" fill="#ffffff"/>
+  <path d="M174 40h44v176h-44v-16h28V56h-28V40Z" fill="url(#navy)"/>
+  <path d="M56 88h30v120H56V88Z" fill="url(#navy)"/>
+  <circle cx="71" cy="50" r="16" fill="url(#blue)"/>
+  <path d="M106 88h30v92h70v28H106V88Z" fill="url(#blue)"/>
+  <path d="M150 134l38-38" fill="none" stroke="#0758e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="146" cy="138" r="14" fill="#061738"/>
+  <circle cx="190" cy="94" r="14" fill="#0758e8"/>
+</svg>

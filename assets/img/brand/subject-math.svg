@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" role="img" aria-labelledby="title">
+  <title id="title">IGCSE Math symbol</title>
+  <rect width="360" height="260" rx="24" fill="#ffffff"/>
+  <path d="M218 52h64v150h-38v-16h22V68h-48V52Z" fill="#071a3d"/>
+  <path d="M84 108h30v94H84v-94Z" fill="#071a3d"/>
+  <circle cx="99" cy="74" r="14" fill="#0758e8"/>
+  <path d="M136 108h30v68h78v26H136v-94Z" fill="#0758e8"/>
+  <path d="M196 122h18l10 36 24-70h37" fill="none" stroke="#0758e8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="232" fill="#071a3d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">IGCSE</text>
+  <text x="195" y="232" fill="#0758e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Math</text>
+</svg>

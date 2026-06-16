@@ -123,7 +123,8 @@ Full meta descriptions and outlines are included visually on `/blog/`.
 - Type: system sans-serif stack for fast loading and clean academic readability.
 - Components: sticky header, subject cards, diagnostic map, process cards, FAQ details, lead form, CTA band.
 - Layout: mobile-first responsive grids, 8px radius cards/buttons, light academic background grid, calm spacing.
-- Visual asset: generated diagnostic workspace image saved at `assets/img/igcse-diagnostic-workspace.png`, with a compressed WebP version used on the homepage.
+- Brand assets: SVG logo, symbol, favicon, subject symbols, hero artwork, and page pattern live in `assets/img/brand/` for lightweight loading and consistent reuse across pages.
+- Homepage visual direction: clean academic white space with navy/blue IGCSE Lab branding, subtle science/math linework, and subject cards using dedicated Math, Physics, Chemistry, and Combined Science symbols.
 
 ## 9. Lead Form Layout
 

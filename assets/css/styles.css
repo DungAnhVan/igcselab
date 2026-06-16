@@ -28,6 +28,8 @@ body {
   margin: 0;
   color: var(--text);
   background:
+    linear-gradient(rgba(251, 253, 255, 0.9), rgba(251, 253, 255, 0.9)),
+    url("../img/brand/brand-pattern.svg") top center / 1440px auto repeat-y,
     linear-gradient(90deg, rgba(11, 31, 58, 0.035) 1px, transparent 1px),
     linear-gradient(rgba(11, 31, 58, 0.03) 1px, transparent 1px),
     #fbfcfe;
@@ -111,15 +113,20 @@ li + li {
 }
 
 .brand-mark {
-  display: grid;
+  display: inline-grid;
   width: 38px;
   height: 38px;
   place-items: center;
-  color: var(--white);
-  background: linear-gradient(135deg, var(--navy), var(--blue));
-  border-radius: var(--radius);
-  font-size: 0.86rem;
-  letter-spacing: 0;
+  overflow: hidden;
+  border-radius: 9px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(11, 31, 58, 0.08);
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .brand-copy {
@@ -227,12 +234,17 @@ li + li {
 
 .hero {
   padding: 5.5rem 0 4rem;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.92), rgba(234, 242, 255, 0.46)),
+    url("../img/brand/brand-pattern.svg") center top / cover no-repeat;
 }
 
 .page-hero {
   padding: 4.5rem 0 3rem;
   background:
     radial-gradient(circle at 14% 18%, rgba(16, 185, 129, 0.12), transparent 25rem),
+    linear-gradient(rgba(255, 255, 255, 0.86), rgba(247, 250, 255, 0.9)),
+    url("../img/brand/brand-pattern.svg") center top / cover no-repeat,
     linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
 }
 
@@ -245,6 +257,12 @@ li + li {
 
 .hero-copy {
   max-width: 680px;
+}
+
+.hero-logo {
+  width: min(300px, 72vw);
+  height: auto;
+  margin: 0 0 1.1rem;
 }
 
 .eyebrow {
@@ -300,6 +318,26 @@ h3 {
   margin: 1.2rem 0 0;
 }
 
+.subject-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+  padding: 0.7rem 0.95rem;
+  border: 1px solid rgba(219, 227, 238, 0.9);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 10px 28px rgba(11, 31, 58, 0.06);
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.subject-hero-badge img {
+  width: 56px;
+  height: 42px;
+  object-fit: contain;
+}
+
 .hero-actions,
 .section-actions {
   display: flex;
@@ -343,6 +381,7 @@ h3 {
   border: 1px solid rgba(219, 227, 238, 0.9);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  background: #ffffff;
 }
 
 .metric-strip {
@@ -482,6 +521,18 @@ h3 {
   position: relative;
   overflow: hidden;
   min-height: 240px;
+}
+
+.subject-card .subject-symbol {
+  display: block;
+  width: min(190px, 72%);
+  max-height: 132px;
+  margin: 0 auto 1rem;
+  object-fit: contain;
+}
+
+.subject-card .subject-symbol + h3 {
+  margin-top: 0.2rem;
 }
 
 .subject-card::after {
